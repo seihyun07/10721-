@@ -4,8 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>틱택토 게임</title>
+    <title>틱택토 게임</title>          
     <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-image: url('bg.jpg');
+            background-size: contain;
+            width: 100%;
+            height: 500px;
+            background-position: left;
+            background-repeat: no-repeat;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
 </head>
 <body>
     <div class="turn-container">
@@ -27,7 +39,10 @@
     </div>
     <h2 id="results"></h2>
     <button id="play-again">다시 플레이하세요</button>
+    
+    <!-- Make sure the audio file path is correct -->
+    <audio src="audio/Johnning-Janji-Heroes-Tonight.mp3" controls></audio>
+
     <script src="script.js"></script>
-    <audio src="C:\Users\clean\OneDrive\바탕 화면\tic tac toe\Johnning, Janji - Heroes Tonight (Sped Up) [NCS Release].mp3" controls></audio>
 </body>
 </html>
